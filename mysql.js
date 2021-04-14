@@ -12,3 +12,4 @@ connection.query('select user_name,email from p_users limit 5', function (error,
     console.log(results)
   
 });
+connection.end();
